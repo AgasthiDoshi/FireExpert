@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import DiagonalMarquees from "./components/DiagonalMarquees";
 import Hero from "./components/Hero";
-// import Services from "./components/Services";
-// import Products from "./components/Products";
-// import CTA from "./components/CTA";
-// import Footer from "./components/Footer";
+import Services from "./components/Services";
+import Products from "./components/Products";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -39,10 +39,10 @@ function App() {
       />
       <DiagonalMarquees />
       <Hero theme={theme} />
-      {/* <Services /> */}
-      {/* <Products /> */}
-      {/* <CTA theme={theme} /> */}
-      {/* <Footer theme={theme} /> */}
+      <Services theme={theme}/>
+      <Products theme={theme}/>
+      <CTA theme={theme} />
+      <Footer theme={theme} />
     </div>
   );
 }

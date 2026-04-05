@@ -1,0 +1,110 @@
+[
+  {
+    "category": "ABC",
+    "products": [
+      {
+        "id": 1,
+        "name": "ABC TYPE 1KG",
+        "desc": "Compact extinguisher for small fire risks.",
+        "details": "The ABC 1KG dry powder extinguisher is designed for residential use, personal vehicles, and small offices. It effectively combats Class A (wood, paper, cloth), Class B (flammable liquids), and Class C (gas) fires. Lightweight and easy to handle, it is wall-mountable and compliant with IS 15683 standards.",
+        "specs": ["Weight: 1 KG", "Agent: ABC Dry Powder", "Class: A, B, C", "Discharge Time: ~8 sec", "Range: 2–3 m"],
+        "image": "/products/ABC1KG.png"
+      },
+      {
+        "id": 2,
+        "name": "ABC TYPE 2KG",
+        "desc": "Lightweight and portable fire extinguisher.",
+        "details": "The ABC 2KG model offers enhanced fire suppression for small offices, shops, and vehicles. With a balanced weight and ergonomic handle, it is the go-to option for personal and light commercial use. Certified under BIS standards and suitable for all three fire classes.",
+        "specs": ["Weight: 2 KG", "Agent: ABC Dry Powder", "Class: A, B, C", "Discharge Time: ~10 sec", "Range: 3–4 m"],
+        "image": "/products/ABC2KG.png"
+      },
+      {
+        "id": 3,
+        "name": "ABC TYPE 4KG",
+        "desc": "Standard commercial extinguisher.",
+        "details": "Ideal for medium fire hazards across industries, warehouses, and commercial establishments. The ABC 4KG extinguisher provides a wider discharge range and longer operational time, making it suitable for open floor areas and production zones.",
+        "specs": ["Weight: 4 KG", "Agent: ABC Dry Powder", "Class: A, B, C", "Discharge Time: ~13 sec", "Range: 4–5 m"],
+        "image": "/products/ABC4KG.png"
+      },
+      {
+        "id": 4,
+        "name": "ABC TYPE 6KG",
+        "desc": "High capacity multi-purpose extinguisher.",
+        "details": "The ABC 6KG is a versatile fire safety solution for factories, shopping malls, and large office complexes. Capable of tackling significant fire outbreaks, this unit features a pressure gauge for readiness monitoring and is designed for easy maintenance.",
+        "specs": ["Weight: 6 KG", "Agent: ABC Dry Powder", "Class: A, B, C", "Discharge Time: ~18 sec", "Range: 5–6 m"],
+        "image": "/products/ABC6KG.png"
+      },
+      {
+        "id": 5,
+        "name": "ABC TYPE 9KG",
+        "desc": "Heavy duty extinguisher.",
+        "details": "The flagship ABC 9KG model is built for maximum fire coverage in industrial environments. Its high discharge capacity and extended range make it the preferred choice for chemical plants, large warehouses, and manufacturing units. Comes with a wall bracket and safety pin.",
+        "specs": ["Weight: 9 KG", "Agent: ABC Dry Powder", "Class: A, B, C", "Discharge Time: ~25 sec", "Range: 6–8 m"],
+        "image": "/products/ABC9KG.png"
+      }
+    ]
+  },
+  {
+    "category": "CO2",
+    "products": [
+      {
+        "id": 6,
+        "name": "CO2 TYPE 2KG",
+        "desc": "Electrical fire extinguisher.",
+        "details": "The CO2 2KG extinguisher is designed specifically for electrical fires in server rooms, data centers, control panels, and office environments. It leaves no residue and does not damage sensitive electronics. Safe to use on live electrical equipment up to 1000V.",
+        "specs": ["Weight: 2 KG", "Agent: Carbon Dioxide (CO2)", "Class: B, C (Electrical)", "Discharge Time: ~8 sec", "Range: 1–2 m"],
+        "image": "/products/CO2-2KG.png"
+      },
+      {
+        "id": 7,
+        "name": "CO2 TYPE 4.5KG",
+        "desc": "Medium capacity CO2 extinguisher.",
+        "details": "The CO2 4.5KG offers residue-free fire suppression ideal for laboratories, telecom equipment rooms, and precision industrial areas. Its horn-type nozzle ensures targeted discharge, preventing fire re-ignition. Fully non-conductive and safe for electronics.",
+        "specs": ["Weight: 4.5 KG", "Agent: Carbon Dioxide (CO2)", "Class: B, C (Electrical)", "Discharge Time: ~14 sec", "Range: 2–3 m"],
+        "image": "/products/CO2-4KG.png"
+      }
+    ]
+  },
+  {
+    "category": "FOAM",
+    "products": [
+      {
+        "id": 8,
+        "name": "FOAM TYPE 6LTRS",
+        "desc": "For flammable liquid fires.",
+        "details": "The Foam 6L extinguisher is engineered for petroleum-based fire hazards found at petrol pumps, garages, kitchens, and fuel storage areas. It creates a blanket over burning liquids, cutting off the oxygen supply and preventing re-ignition. Safe on Class A and B fires.",
+        "specs": ["Capacity: 6 Litres", "Agent: AFFF Foam", "Class: A, B", "Discharge Time: ~25 sec", "Range: 3–4 m"],
+        "image": "/products/FOAM-6LTR.png"
+      },
+      {
+        "id": 9,
+        "name": "FOAM TYPE 9LTRS",
+        "desc": "High capacity foam extinguisher.",
+        "details": "The Foam 9L model is built for large liquid fire hazards. Its superior foam blanket forms quickly to suppress and cool burning fuels, making it ideal for large workshops, paint booths, aviation hangars, and fuel depots. Compliant with IS 15683.",
+        "specs": ["Capacity: 9 Litres", "Agent: AFFF Foam", "Class: A, B", "Discharge Time: ~35 sec", "Range: 4–5 m"],
+        "image": "/products/FOAM-9LTR.png"
+      }
+    ]
+  },
+  {
+    "category": "WATER",
+    "products": [
+      {
+        "id": 10,
+        "name": "WATER TYPE 6LTRS",
+        "desc": "For Class A fires.",
+        "details": "The Water 6L extinguisher targets Class A fires involving solid combustibles such as wood, paper, textiles, and cardboard. It provides a powerful jet that cools and drowns the fire at its source. Commonly used in schools, libraries, warehouses, and residential buildings.",
+        "specs": ["Capacity: 6 Litres", "Agent: Water", "Class: A", "Discharge Time: ~30 sec", "Range: 5–6 m"],
+        "image": "/products/WATER-6LTR.png"
+      },
+      {
+        "id": 11,
+        "name": "WATER TYPE 9LTRS",
+        "desc": "High capacity water extinguisher.",
+        "details": "The Water 9L is a high-capacity solution for large fire-prone environments with Class A hazards. Its extended range and volume are ideal for open storage facilities, timber yards, and large commercial buildings. Not suitable for electrical or liquid fires.",
+        "specs": ["Capacity: 9 Litres", "Agent: Water", "Class: A", "Discharge Time: ~45 sec", "Range: 6–8 m"],
+        "image": "/products/WATER-9LTR.png"
+      }
+    ]
+  }
+]
