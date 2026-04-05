@@ -13,9 +13,7 @@ function ProductModal({ product, onClose, theme }) {
 I am interested in:
 
 🧯 ${product.name}
-
-${product.desc}
-
+${product.image}
 ${product.details}
 
 Please share quotation and details.`;
