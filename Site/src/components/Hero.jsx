@@ -92,24 +92,34 @@ export default function Hero({ theme }) {
         {/* BUTTONS */}
         <div className="flex gap-4 flex-wrap mb-10 justify-center md:justify-start">
 
-          <button className="
-            font-['Inter']
-            px-6 py-3.5 rounded-xl text-sm font-semibold
-            bg-[#ff5a1f] text-white
-            shadow-lg hover:scale-105 transition
-          ">
-            Get Service
-          </button>
+  {/* GET SERVICE → WHATSAPP */}
+  <a
+    href="https://wa.me/917400345300?text=Hi%20I%20am%20interested%20in%20your%20service"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      font-['Inter']
+      px-6 py-3.5 rounded-xl text-sm font-semibold
+      bg-[#ff5a1f] text-white
+      shadow-lg hover:scale-105 transition
+    "
+  >
+    Get Service
+  </a>
 
-          <button className={`
-            font-['Inter']
-            px-6 py-3.5 rounded-xl text-sm font-semibold border
-            ${theme === "dark" ? "border-white/30" : "border-black/30"}
-          `}>
-            Know More
-          </button>
+  {/* KNOW MORE → SCROLL */}
+  <a
+    href="#services"
+    className={`
+      font-['Inter']
+      px-6 py-3.5 rounded-xl text-sm font-semibold border transition
+      ${theme === "dark" ? "border-white/30" : "border-black/30"}
+    `}
+  >
+    Know More
+  </a>
 
-        </div>
+</div>
 
         {/* CAROUSEL */}
        <div className="relative overflow-hidden">

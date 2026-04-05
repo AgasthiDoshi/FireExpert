@@ -72,14 +72,14 @@ export default function Footer({ theme }) {
 
               <li className="flex items-center gap-2">
                 <span>📞</span>
-                <a href="tel:+919820305111" className="hover:text-[#ff5a1f]">
-                  +91 9820305111
+                <a href="tel:+917400345300" className="hover:text-[#ff5a1f]">
+                  +91 7400345300
                 </a>
               </li>
 
               <li className="flex items-center gap-2">
                 <span>✉️</span>
-                <a href="mailto:info@firexpert.in" className="hover:text-[#ff5a1f]">
+                <a href="doshiagasthi@gmail.com" className="hover:text-[#ff5a1f]">
                   info@firexpert.in
                 </a>
               </li>

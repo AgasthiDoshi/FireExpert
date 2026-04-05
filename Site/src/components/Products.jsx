@@ -1,7 +1,7 @@
 import { useState } from "react";
 import productsData from "../data/products.json";
 
-const WHATSAPP_NUMBER = "919820305111";
+const WHATSAPP_NUMBER = "917400345300";
 
 /* ===============================
    MODAL (PREMIUM)
@@ -13,9 +13,6 @@ function ProductModal({ product, onClose, theme }) {
 I am interested in:
 
 🧯 ${product.name}
-${product.image}
-${product.details}
-
 Please share quotation and details.`;
 
     window.open(
