@@ -80,7 +80,7 @@ export default function Footer({ theme }) {
               <li className="flex items-center gap-2">
                 <span>✉️</span>
                 <a href="doshiagasthi@gmail.com" className="hover:text-[#ff5a1f]">
-                  info@firexpert.in
+                  doshiagasthi@gmail.com
                 </a>
               </li>
 
